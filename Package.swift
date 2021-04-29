@@ -17,7 +17,7 @@ let package = Package(
             name: "TwilioVoice",
             url: "https://github.com/twilio/twilio-voice-ios/releases/download/6.2.2/TwilioVoice.xcframework.zip",
             checksum: "e8411732eff2ad79bcba744385b402523f2bddc9cb9c8654faa27b62dc9a12ec"
-        )
+        ),
         .target(
             name: "TwilioVoiceTarget",
             dependencies: [
