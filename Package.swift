@@ -9,7 +9,6 @@ let package = Package(
     products: [
         .library(
             name: "TwilioVoice",
-            type: .dynamic,
             targets: ["TwilioVoiceTarget"]),
     ],
     targets: [
